@@ -2,4 +2,37 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: 400px;
+}
+
+.manipulation-div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.calc-row {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.btn-calc {
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+}
+.btn-calc.equal {
+  width: 126px;
 }

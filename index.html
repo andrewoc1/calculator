@@ -1,4 +1,4 @@
-:<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,9 +9,43 @@
   </head>
   <body>
     <div class="container">
-      <div class="resultsDiv"></div>
+      <div class="results-div"></div>
 
-      <div class="manipulationDiv"></div>
+      <div class="manipulation-div">
+        <div class="calc-row">
+          <button class="btn-calc" data-action="delete" type="button">⌫</button>
+          <button class="btn-calc" data-action="clear" type="button">AC</button>
+          <button class="btn-calc" data-operator="%" type="button">%</button>
+          <button class="btn-calc" data-operator="clear" type="button">
+            ➗
+          </button>
+        </div>
+
+        <div class="calc-row">
+          <button class="btn-calc" data-number="7" type="button">7</button>
+          <button class="btn-calc" data-number="8" type="button">8</button>
+
+          <button class="btn-calc" data-number="9" type="button">9</button>
+          <button class="btn-calc" data-operator="*" type="button">×</button>
+        </div>
+
+        <div class="calc-row">
+          <button class="btn-calc" data-number="4" type="button">4</button>
+          <button class="btn-calc" data-number="5" type="button">5</button>
+
+          <button class="btn-calc" data-number="6" type="button">6</button>
+          <button class="btn-calc" data-operator="-" type="button">-</button>
+        </div>
+
+        <div class="calc-row">
+          <button class="btn-calc" data-number="0" type="button">0</button>
+          <button class="btn-calc" data-number="." type="button">.</button>
+
+          <button class="btn-calc equal" data-operator="=" type="button">
+            =
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
