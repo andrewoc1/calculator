@@ -12,8 +12,24 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: black;
+  border-radius: 20px;
+  gap: 30px;
   height: 600px;
-  width: 400px;
+  width: 320px;
+}
+.results-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results {
+  height: 200px;
+  width: 250px;
+  border-radius: 20px;
+  font-size: 35px;
+  background-color: lightgrey;
 }
 
 .manipulation-div {
@@ -31,8 +47,24 @@
 .btn-calc {
   height: 60px;
   width: 60px;
+    color: white;
+  font-weight: bold;
   border-radius: 40px;
+  font-size: 20px;
 }
 .btn-calc.equal {
   width: 126px;
 }
+
+.btn-calc.dark-grey {
+  background-color: darkgrey;
+}
+
+.btn-calc.light-grey {
+    background-color: lightgrey;
+}
+
+.btn-calc.orange{
+    background-color: orange;
+}
+.
